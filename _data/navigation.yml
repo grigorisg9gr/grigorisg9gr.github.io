@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "About"
-    url: /pages/about/index.html
+    url: /_pages/about/index.html
   - title: "Publications"
     url: http://ibug.doc.ic.ac.uk/people/gchrysos
     

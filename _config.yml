@@ -83,7 +83,7 @@ author:
   bio              : ""
   location         : "Somewhere in Europe"
   employer         :
-  googlescholar    : ""
+  googlescholar    :
   email            : "g.[surname][at]imperial.ac.uk"
   uri              :
   bitbucket        :
@@ -98,7 +98,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         : "grigorischrysos"
-  orcid            : ""
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
