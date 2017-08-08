@@ -1,4 +1,31 @@
-_site/
+# jekyll theme ignores
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+codekit-config.json
+example/_site
+Gemfile.lock
+node_modules
+npm-debug.log*
+
+
 *~
-.bundle/
+*.pyc
+.idea/*
+.ipynb_checkpoints/*
+tmp.txt
+wisdom.fftw
+*.mat
+*Copy*.ipynb
+*.swp
+
+# Directories (and subdirectories)
+**/__pycache__/
+**/.ipynb_checkpoints/
 

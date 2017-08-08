@@ -5,11 +5,11 @@ main:
   - title: "Publications"
     url: http://ibug.doc.ic.ac.uk/people/gchrysos
     
-  - title: "Portfolio"
-    url: /portfolio/
+  #- title: "Portfolio"
+  #  url: /portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+  #  url: /cv/
