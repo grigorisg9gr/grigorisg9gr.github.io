@@ -1,13 +1,9 @@
 # main links links
 main:
+  - title: "About"
+    url: /pages/about/index.html
   - title: "Publications"
-    url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
+    url: http://ibug.doc.ic.ac.uk/people/gchrysos
     
   - title: "Portfolio"
     url: /portfolio/
@@ -17,6 +13,3 @@ main:
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
