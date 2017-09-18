@@ -40,14 +40,14 @@ Following the summation of the articles, the table below describes the core comp
 
 | Article | Background info | Main part | Applications | Difficulty/Audience |
 |---------|:---------------:|:---------:|:------------:|:----------:|
-|[fastforward labs](http://blog.fastforwardlabs.com/2016/08/12/introducing-variational-autoencoders-in-prose-and.html)| `AE`<br/>`Bayesian learning` |`VAE as NN`|     -         | `ML beginners` |
+|[fastforward labs](http://blog.fastforwardlabs.com/2016/08/12/introducing-variational-autoencoders-in-prose-and.html)| `AE,`<br/>`Bayesian learning` |`VAE as NN`|     -         | `ML beginners` |
 |[fastforward labs (part2)](http://blog.fastforwardlabs.com/2016/08/22/under-the-hood-of-the-variational-autoencoder-in.html)| - | `cost function explanation` |     -         | `requires math understanding` |
-|[jmetzen](https://jmetzen.github.io/2015-11-27/vae.html)|  -  | -  |    `code`<br/>`results`  | `engineers` |
-|[int8.io](http://int8.io/variational-autoencoder-in-tensorflow/)|`AE` | `VAE as NN` | `code`<br/>`results` | `engineers`<br/>`ML beginners` |
-|[kvfans](http://kvfrans.com/variational-autoencoders-explained/)| - | `VAE as NN` | `code`<br/>`results`<br/>`limitations` | `engineers` |
-|[jaan.io](https://jaan.io/what-is-variational-autoencoder-vae-tutorial/)| `probabilistic/bayesian approach`<br/>`approximate posterior` |`variational bound derivation`<br/>`re-parametrization trick`| `code` | `requires math understanding` |
-|[wiseodd](https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/)| `bayesian approach`<br/>`approximate posterior`<br/>`intuition`|`variational bound derivation`<br/>`re-parametrization trick`| `code`| `requires math understanding` |
-|[nutty netter](https://www.youtube.com/watch?v=h0UE8FzdE8U)| `LL` | `variational bound derivation`<br/>`VAE as NN`| `limitations` | `requires math understanding` |
+|[jmetzen](https://jmetzen.github.io/2015-11-27/vae.html)|  -  | -  |    `code,`<br/>`results`  | `engineers` |
+|[int8.io](http://int8.io/variational-autoencoder-in-tensorflow/)|`AE` | `VAE as NN` | `code,`<br/>`results` | `engineers,`<br/>`ML beginners` |
+|[kvfans](http://kvfrans.com/variational-autoencoders-explained/)| - | `VAE as NN` | `code,`<br/>`results,`<br/>`limitations` | `engineers` |
+|[jaan.io](https://jaan.io/what-is-variational-autoencoder-vae-tutorial/)| `probabilistic/bayesian approach,`<br/>`approximate posterior` |`variational bound derivation,`<br/>`re-parametrization trick`| `code` | `requires math understanding` |
+|[wiseodd](https://wiseodd.github.io/techblog/2016/12/10/variational-autoencoder/)| `bayesian approach,`<br/>`approximate posterior,`<br/>`intuition`|`variational bound derivation,`<br/>`re-parametrization trick`| `code`| `requires math understanding` |
+|[nutty netter](https://www.youtube.com/watch?v=h0UE8FzdE8U)| `LL` | `variational bound derivation,`<br/>`VAE as NN`| `limitations` | `requires math understanding` |
 
 
 The tutorials above cover the introduction to VAE from different aspects, however they all have limited explanation on the shortcomings of VAE (e.g. how the Gaussian prior leads to blurry results) or how to adapt VAE to more complex modelling than MNIST.
