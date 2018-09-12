@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Grigoris' personal website."
+title                    : "Grigoris' website."
 title_separator          : "-"
 name                     : &name "Grigorios Chrysos"
 description              : &description "This site features my personal thoughts, mostly for work/research-related topics."
