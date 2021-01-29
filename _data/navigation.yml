@@ -3,7 +3,7 @@ main:
   - title: "About"
     url: /_pages/about/index.html
   - title: "Publications"
-    url: /publications/ # http://ibug.doc.ic.ac.uk/people/gchrysos
+    url: /publications/index.md # http://ibug.doc.ic.ac.uk/people/gchrysos
     
   #- title: "Portfolio"
   #  url: /portfolio/
