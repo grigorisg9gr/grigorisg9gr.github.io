@@ -2,8 +2,9 @@
 layout: page
 title: Publications
 excerpt: "Publications"
-classes: wide
 share: false
+collection: publications
+permalink: /publication/
 ---
 
 ## Peer-reviewed conferences and journals:
