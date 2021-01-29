@@ -4,7 +4,6 @@ title: Publications
 excerpt: "Publications"
 share: false
 collection: publications
-permalink: /publication/
 ---
 
 ## Peer-reviewed conferences and journals:
