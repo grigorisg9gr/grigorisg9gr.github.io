@@ -307,3 +307,22 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+
+/* ==========================================================================
+   Grigoris, modifications in the CSS.
+   ========================================================================== */
+
+.buttong {
+  background-color: #554;
+  border: none;
+  color: white;
+  padding: 0.8%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button-round {border-radius: 30%;}
