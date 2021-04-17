@@ -49,12 +49,14 @@
 <div class="column is-full-width">
 <h2 class="title is-2">Architectures of polynomial networks</h2>
 
-The idea is to approximate functions using high-degree polynomial expansions. To explain how this would work, let us showcase it with a third-degree polynomial expansion. Then, assuming the input is a d-dimensional vector <strong>z</strong>, we want to capture up to third-degree correlations of the elements of <strong>z</strong>. Let x<sub>t</sub> denote the scalar output of the polynomial expansion and <strong>W</strong><sup>[k]</sup> denote the k<sup>th</sup> degree parameters. Then, the polynomial expansion would be:<br>
+<p>The idea is to approximate functions using high-degree polynomial expansions. To explain how this would work, let us showcase it with a third-degree polynomial expansion. Then, assuming the input is a d-dimensional vector <strong>z</strong>, we want to capture up to third-degree correlations of the elements of <strong>z</strong>. Let x<sub>t</sub> denote the scalar output of the polynomial expansion and <strong>W</strong><sup>[k]</sup> denote the k<sup>th</sup> degree parameters. Then, the polynomial expansion would be:</p>
+
 <div class="column is-2 has-text-centered"><img class="third-degree-poly" src="/images/pi_nets_third_degree_correlations.png" alt="Third-degree polynomial expansion." />
 <br>
-The expression above captures all correlations of element z<sub>i</sub> with z<sub>j</sub>, where i, j belong in the [1, d] interval. However, the unknown parameters <strong>W</strong><sup>[k]</sup> scale very fast with respect to the degree of the polynomial. Our goal is to use high-degree expansions on high-dimensional signals, such as images. Therefore, we should reduce the number of unknown parameters.<br>
 
-Tensor decompositions have been effectively used to reduce the number of unknown parameters in the literature. Indeed, we use collective tensor factorization and we can reduce the unknown parameters significantly. In addition, we can obtain simple recursive relationships that enable us to construct arbitrary degree polynomial expansions. The details of the derivations can be found in the papers. <br>
+<p>The expression above captures all correlations of element z<sub>i</sub> with z<sub>j</sub>, where i, j belong in the [1, d] interval. However, the unknown parameters <strong>W</strong><sup>[k]</sup> scale very fast with respect to the degree of the polynomial. Our goal is to use high-degree expansions on high-dimensional signals, such as images. Therefore, we should reduce the number of unknown parameters.</p>
+
+<p>Tensor decompositions have been effectively used to reduce the number of unknown parameters in the literature. Indeed, we use collective tensor factorization and we can reduce the unknown parameters significantly. In addition, we can obtain simple recursive relationships that enable us to construct arbitrary degree polynomial expansions. The details of the derivations can be found in the papers. </p>
 
 <!-- include latex online: <img src="http://latex.codecogs.com/gif.latex?1+sin(x)" border="0"/> -->
 
