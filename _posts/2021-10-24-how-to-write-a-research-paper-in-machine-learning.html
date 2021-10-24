@@ -1,0 +1,160 @@
+---
+categories:
+  - Machine Learning
+  - Research paper
+tags:
+  - semester projects
+  - ML projects
+  - MSc students
+  - research
+  - research paper
+---
+
+
+<section class="section">
+<div class="container">
+<div class="columns is-centered has-text-centered">
+<div class="column is-two-thirds">
+<!-- <h2 class="title is-2">Abstract</h2> -->
+<div class="content has-text-justified">
+
+<p id="beginning">Writing a research paper means communicating your idea to the external world. The task is always demanding, but it gets better with practice. This tutorial is for students writing their first research paper in machine learning. The paper can be either your semester project report or a submission to a conference. The tips below cover both cases, so please take the time to study the tips; revisit those tips while writing the first draft of your paper.  </p>
+
+
+<p>Your goal is handing in a well-thought and <strong>well-written paper</strong>; reaching that state <strong>requires multiple steps</strong>. There are a number of incredible tutorials and presentations out there (see <a id="#misc-resources">the end of the post</a>). The tutorial below is divided into two main parts: i) tips on <a id="#first-section">how to get started and write the first section of the paper</a>, and ii) <a id="#general-tips">general tips for refining the paper</a>. </p>
+
+<div><section id="first-section" class="section">
+<h2 class="title">Writing one section (at the time)</h2>
+
+Let us start from the first round of writing, i.e., populating the first section of the paper. Let us assume that this is the experimental section. Then, following the next steps should already provide a first version of that section: 
+
+<ol>
+  <li> Include the <i style="color:rgb(60, 30, 30)">tables/results</i> even if the final numbers are not yet ready. </li>
+  <li> Write 2-3 sentences that provide the <i style="color:rgb(60, 30, 30)">results and comments</i> on them, e.g., does the proposed method perform on par with the baselines? What is the strongest empirical evidence? If your results are not conclusive yet, you can postpone this and the next step until a later point. </li>
+  <li> Then, write a couple of sentences on <i style="color:rgb(60, 30, 30)">why the reader should care for the experiment</i>, and whether the improvement is important, e.g., is it consistent across the experiments? </li>
+  <li> Then, start developing further the details of your experiments. What are the datasets you used? Could you <i style="color:rgb(60, 30, 30)">describe the datasets</i> briefly? Are those standard benchmarks?  </li>
+  <li> Next up, you can write a paragraph (or more) about the <i style="color:rgb(60, 30, 30)">implementation details</i>. What are the hyper-parameters that require explanation for reproducibility?  </li>
+  <li> Are there some <i style="color:rgb(60, 30, 30)">additional experiments</i> or toy settings that you need to include? </li>
+  <li> Collect all the text, put it in a logical order (e.g., implementation details should come before the experimental results), and revise the text to make it more concise.  </li>
+</ol>
+
+<p>Each of the steps should be easy to write down, so do not move on to the next one, until you complete the previous step. These seven steps are meant as a guide for writing the first round of the first section of your paper, while similar steps can be considered for other sections as well. </p>
+
+<p>Should the first section be the experimental section? Not necessarily, I suggest you to <strong>start from the section you are most comfortable writing about</strong>. For instance, you should be able to identify the works most closely related to yours and write the differences in the related work. Similarly, the theorems you have proved are already determined and you could write them down in the methodology. </p>
+
+
+
+</section></div>
+
+<div><section id="general-tips" class="section">
+<h2 class="title">General tips on writing</h2>
+
+
+You have now finished writing the first round, is this the first draft? Not yet, there are a couple of steps that you should follow to make the manuscript more accessible: 
+
+<ul>
+  <li>The paper is not a diary to be written in a chronological order. The fact that you conduct an experiment first, does not mean that this experiment should necessarily be included first; especially if you are writing for a conference submission that has a limited number of pages.</li>
+
+  <li><strong style="color:blue">Notation</strong>, notation, notation. The notation is a critical component of your paper (especially for theoretical works) and it <strong>should be consistent</strong> throughout the text. A couple of simple rules are the following:
+
+        <ul>
+          <li> <strong>Symbols</strong> used in equations <strong>should be used in math mode</strong> in the text, as well. For instance, 'we use symbol K for [vvv]' should be replaced by 'we use symbol $K$ for [vvvv]'. </li>
+
+          <li> Superscripts are often required, and there are several combinations, e.g., K$^{th}$ or $K^{th}$. Please <strong>use $K^{\text{th}}$</strong> in every case for superscripts. </li>
+
+          <li> If specific styling is used for symbols, it should be consistent throughout the paper. For instance, if vectors are denoted in bold (btw, the package bm is recommended for those), they should be bold throughout the text.</li>
+
+          <li> Math equations should either finish with a comma (,) or a period (.), depending on whether there is a sentence continuing/explaining after the equation. </li>
+        </ul></li> <!-- The first one is for the nested ul, and the li is for the outer list. -->
+
+  <li><strong style="color:blue">Abbreviations</strong>: 
+
+        <ul>
+          <li> Even though each task has a number of abbreviations, the reader might not be aware of those. Thus, use the full name the first time and <strong>define the abbreviation</strong>, and then you can refer to the abbreviation in the rest of the paper. For instance, 'Neural networks (NNs)' defines the new abbreviation that can be used then. </li>
+
+          <li> Define an abbreviation only if you need one; for instance, if you do not use the abbreviation in the rest of the text, you do not need to define it. </li>
+
+          <li> <strong>Abbreviations</strong> (including datasets, methods, model names) <strong>should be consistent</strong> throughout the text. One way to guarantee that is <strong>by using aliases</strong> in LaTeX. For instance, you can define '\newcommand{\cifarten}{Cifar-10}' in the preamble and then refer to it as \cifarten throughout the paper. Even simple abbreviations can be written differently in different parts of the text, e.g., Cifar10, CIFAR10, Cifar-10; thus, using abbreviations is recommended for consistency. </li>       
+        </ul></li>
+
+  <li><strong style="color:blue">The '\cite{}' commands</strong>: Many ML conferences have established the commands of \citet and \citep which can cause confusion. In case those commands exist in your template, here are a couple of tips on using them more effectively:
+
+        <ul>
+          <li> \citet can be used when you want to refer to the authors in the flow of the sentence. For instance, 'the method of \citet{authors}' results in the following text: 'The method of Authors et al.'. </li>
+
+          <li> \citep is used when you want to include parentheses. For instance, 'NNs can be used for synthesising images \citep{authors}' results in the following text: 'NNs can be used for synthesising images (Authors et al.)'. </li>
+
+          <li> Replace 'The authors in \citet{authors}' with '\citet{authors}'. </li>
+        </ul></li>
+
+  <li><strong style="color:blue">LaTeX Labels</strong>: First-time users of LaTeX often do not use \label{}, but the label command a great tool in LaTeX enabling you to refer to the equation/figure/section at a later point. The labelling rules I am following are the following: 
+
+        <ul>
+          <li> Devote the first few characters on the type of label. For instance `eq' for equation, `sec' for section, `fig' for figure. This is especially helpful in case you are writing in IDEs with auto-complete. </li>
+
+          <li> The next few characters should describe the role of the equation. Is it the main model equation or just the first model? </li>
+
+          <li> <strong>Follow a similar pattern for labelling</strong>. My advice is [type-of-label]:[role]_[additional-info]. For instance, \label{eq:model1_recursive} is distinctive enough for the context of the paper.</li> 
+
+          <li> In the equations, write the label at the end, just before the \end{equation} command. </li>
+
+          <li> Write a label in every section, every table/figure and every equation.</li>
+
+          <li> <strong>Avoid duplicate labels</strong>. Frequently, an equation/table is copied and modified to express a new model/experiment, but the labels are not modified accordingly. The duplicate label creates issues due to the LaTeX compilation. Unfortunately, they show up as 'warnings' in popular cloud-based editors, such as Overleaf, so it would be easy to ignore them. </li>
+        </ul></li>
+
+  <li><strong style="color:blue">Figures and tables</strong>:
+        <ul>
+          <li> The <strong>captions should be self-contained, descriptive and concise</strong>. For instance, writing 'Accuracy on CIFAR10' is not enough; a more descriptive caption could be: 'Comparison of the different architectures when trained on CIFAR10. Notice that the $\Pi-$net requires less parameters than ResNet to achieve the same accuracy, which exhibits the expressivity of the proposed model.' </li>
+
+          <li> Styling: If you have multiple figures/tables that depict the same topic, it is recommended to use the same styling (e.g., line shape, line color,  legends). </li>
+
+          <li> Make it easy for the reader to understand if higher or lower values are better. This can be achieved by including a dedicated symbol, e.g., $\downarrow$.</li>
+        </ul></li> <!-- The first one is for the nested ul, and the li is for the outer list. -->
+
+</ul>
+
+</section></div>
+
+<div><section id="misc" class="section">
+<h2 class="title">Acknowledgements</h2>
+
+<p>I am thankful to Zhenyu Zhu for the feedback they provided and tips on the LaTeX basics. </p>
+
+</section></div>
+
+<div><section id="misc-resources" class="section">
+<h2 class="title">Resources</h2>
+
+<p>The list I compiled above covers only the basics, there is a wealth of additional resources that you can easily access and understand further how to write your research paper. </p>
+
+<p>Video tutorials from incredible researchers:</p> 
+<ul>
+  <li>YouTube tutorial by William Freeman on writing a paper in computer vision/machine learning: <a href="https://youtu.be/W1zPtTt43LI?t=543">https://youtu.be/W1zPtTt43LI?t=543</a>. </li>
+  <li>Tutorial from Simon Peyton Jones on writing a paper in computer science: <a href="https://www.youtube.com/watch?v=VK51E3gHENc">https://www.youtube.com/watch?v=VK51E3gHENc</a> (supporting material here: <a href="https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/">https://www.microsoft.com/en-us/research/academic-program/write-great-research-paper/</a>).</li>
+  <li>YouTube tutorial by Anthony Newman on writing a paper in (life) science(s): <a href="https://www.youtube.com/watch?v=oVF4c6JTAHs">https://www.youtube.com/watch?v=oVF4c6JTAHs</a>.</li>
+  </ul>
+
+
+<p>Booklets and other resources on writing: </p>
+<ul>
+  <li>Booklet on writing research papers: <a href="http://www.raewynconnell.net/p/writing-for-research.html">http://www.raewynconnell.net/p/writing-for-research.html</a>. </li>
+  <li>Blogpost on writing books:  <a href="https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md">https://github.com/mnielsen/notes-on-writing/blob/master/notes_on_writing.md</a>. </li>
+  <li>Blogpost with advice for authors: <a href="https://jsteinhardt.wordpress.com/2017/02/28/advice-for-authors/">https://jsteinhardt.wordpress.com/2017/02/28/advice-for-authors/</a>. </li>
+  <li>Book: 'How to write a research paper', by Simon Kendall. </li>
+  <li>Session in deep learning indaba: <a href="https://pdf4pro.com/view/how-to-write-a-great-research-paper-deeplearningindaba-com-4f629c.html">https://pdf4pro.com/view/how-to-write-a-great-research-paper-deeplearningindaba-com-4f629c.html</a>. </li>
+</ul>
+
+
+<p>Useful resource: 'The elements of style', style guide for writing in English. </p>
+<a id="#beginning">Top</a>
+
+</section></div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="columns is-centered has-text-centered">
+<div class="column is-two-thirds">
+</section>
