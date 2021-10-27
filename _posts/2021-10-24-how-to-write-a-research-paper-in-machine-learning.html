@@ -66,6 +66,8 @@ You have now finished writing the first round, is this the first draft? Not yet,
           <li> If specific styling is used for symbols, it should be consistent throughout the paper. For instance, if vectors are denoted in bold (btw, the package bm is recommended for those), they should be bold throughout the text.</li>
 
           <li> Math equations should either finish with a comma (,) or a period (.), depending on whether there is a sentence continuing/explaining after the equation. </li>
+
+          <li> Use distinctive symbols and avoid overloading notation, e.g., do not use both $u$ and $\upsilon$, unless necessary.</li>
         </ul></li> <!-- The first one is for the nested ul, and the li is for the outer list. -->
 
   <li><strong style="color:blue">Abbreviations</strong>: 
@@ -104,6 +106,15 @@ You have now finished writing the first round, is this the first draft? Not yet,
           <li> <strong>Avoid duplicate labels</strong>. Frequently, an equation/table is copied and modified to express a new model/experiment, but the labels are not modified accordingly. The duplicate label creates issues due to the LaTeX compilation. Unfortunately, they show up as 'warnings' in popular cloud-based editors, such as Overleaf, so it would be easy to ignore them. </li>
         </ul></li>
 
+  <li><strong style="color:blue">References</strong>: The style of the references is often overlooked, however the following simple rules can vastly improve the style:
+        <ul>
+          <li> If a paper is accepted on a conference/journal, prefer citing it with that reference, rather than the ArXiv identifier. Attention: Google Scholar often provides the citation for the ArXiv version and not the accepted in the conference/journal. </li>
+
+          <li> The style and the names of conferences/journals should be consistent. An easy way to achieve that is by defining a string in the bibtex file and then replacing the booktitle with that. For instance, if you define @STRING{ICLR = "International Conference on Learning Representations"}, now you can write the 'booktitle=ICLR' in the respective field of a citation. </li>
+
+          <li> Confirm the references you are using, especially for datasets and benchmarks. </li>
+        </ul></li>
+
   <li><strong style="color:blue">Figures and tables</strong>:
         <ul>
           <li> The <strong>captions should be self-contained, descriptive and concise</strong>. For instance, writing 'Accuracy on CIFAR10' is not enough; a more descriptive caption could be: 'Comparison of the different architectures when trained on CIFAR10. Notice that the $\Pi-$net requires less parameters than ResNet to achieve the same accuracy, which exhibits the expressivity of the proposed model.' </li>
@@ -111,6 +122,8 @@ You have now finished writing the first round, is this the first draft? Not yet,
           <li> Styling: If you have multiple figures/tables that depict the same topic, it is recommended to use the same styling (e.g., line shape, line color,  legends). </li>
 
           <li> Make it easy for the reader to understand if higher or lower values are better. This can be achieved by including a dedicated symbol, e.g., $\downarrow$.</li>
+
+          <li> The best value (per metric per experiment) should be converted into a bold value to be easily identifiable.</li>
         </ul></li> <!-- The first one is for the nested ul, and the li is for the outer list. -->
 
 </ul>
@@ -120,7 +133,7 @@ You have now finished writing the first round, is this the first draft? Not yet,
 <div><section id="misc" class="section">
 <h2 class="title">Acknowledgements</h2>
 
-<p>I am thankful to Zhenyu Zhu for the feedback they provided and tips on the LaTeX basics. </p>
+<p>I am thankful to Zhenyu Zhu, Zhiyuan Wu, Bohan Wang, Aleksandr Timofeev for the feedback they provided and tips on the LaTeX basics. </p>
 
 </section></div>
 
