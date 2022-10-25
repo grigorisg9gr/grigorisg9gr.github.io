@@ -13,6 +13,9 @@ main:
 
   - title: "Code"
     url: /_pages/code/index.html
+
+  - title: "Service"
+    url: /_pages/service/index.html
     
   #- title: "CV"
   #  url: /cv/
