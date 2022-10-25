@@ -12,7 +12,7 @@ main:
     url: /year-archive/
 
   - title: "Code"
-    url: /_pages/code.html
+    url: /_pages/code/index.html
     
   #- title: "CV"
   #  url: /cv/
