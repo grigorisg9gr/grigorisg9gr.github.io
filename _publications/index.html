@@ -24,6 +24,27 @@ collection: publications
       Conference on Neural Information Processing Systems (<em>NeurIPS</em>), 2022. <br>
       <a style="color: white; text-decoration: none;" href="https://openreview.net/pdf?id=m8vzptcFKsT"><span class="buttong button-round"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF</span></a> <br>
       <span style="color: #609999; font-size: 13px; line-height: 13px;">We explore the interplay of the width, the depth and the initialization(s) on the average robustness of neural networks with both theoretical bounds and empirical validation.</span></p> <!-- https://arxiv.org/pdf/2209.07263.pdf -->
+        <p class="my-hover-target">Bibtex citation.</p>
+        <div id="widget" style="display: none;">
+          @inproceedings{zhu2022robustness,
+                    title={Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)},
+                    author={Zhu, Zhenyu and Liu, Fanghui and Chrysos, G Grigorios and Cevher, Volkan},
+                    booktitle={Advances in neural information processing systems (NeurIPS)},
+                    year={2022}
+          }
+        </div>
+        <script>
+          var p = document.querySelector(".my-hover-target"); // Get a reference to the paragraph element
+          var my_widget = document.querySelector("#widget"); // Get a reference to the widget element
+
+          // Add an event listener to the paragraph that
+          // shows the widget when the cursor is over the paragraph
+          p.addEventListener("mouseover", function() {my_widget.style.display = "block";});
+
+          // Add an event listener to the paragraph that
+          // hides the widget when the cursor is no longer over the paragraph
+          p.addEventListener("mouseout", function() {my_widget.style.display = "none";});
+        </script>
     </div></li>
 
 <li><strong>Generalization Properties of NAS under Activation and Skip Connection Search.</strong>
