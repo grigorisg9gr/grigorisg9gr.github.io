@@ -25,6 +25,7 @@ wisdom.fftw
 *Copy*.ipynb
 *.swp
 *.tmp
+*.backup*
 
 # Directories (and subdirectories)
 **/__pycache__/
