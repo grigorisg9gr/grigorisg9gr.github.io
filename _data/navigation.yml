@@ -4,7 +4,7 @@ main:
     url: /_pages/about/index.html
 
   - title: "Publications"
-    url: /publications/index/ # http://ibug.doc.ic.ac.uk/people/gchrysos
+    url: /publications/index/ #
     
   #- title: "Portfolio"
   #  url: /portfolio/
@@ -20,6 +20,9 @@ main:
 
   - title: "Open positions"
     url: /_pages/open_positions/index.html
+
+  - title: "Talks"
+    url: /_pages/talks/index.html
 
   #- title: "CV"
   #  url: /cv/
