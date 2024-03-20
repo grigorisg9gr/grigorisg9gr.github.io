@@ -21,6 +21,9 @@ main:
   - title: "Talks"
     url: /_pages/talks/index.html
 
+  - title: "Students"
+    url: /_pages/students/index.html
+
   - title: "Open positions"
     url: /_pages/open_positions/index.html
 
