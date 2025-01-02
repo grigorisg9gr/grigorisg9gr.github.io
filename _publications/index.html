@@ -183,46 +183,56 @@ collection: publications
       <span style="color: #609999; font-size: 13px; line-height: 13px;">We explore the interplay of the width, the depth and the initialization(s) on the average robustness of neural networks with both theoretical bounds and empirical validation.</span></p> <!-- https://arxiv.org/pdf/2209.07263.pdf https://openreview.net/pdf?id=m8vzptcFKsT -->
 <!--  # # Comment it out for now and revisit later.-->
         <p class="my-hover-target">Bibtex citation.</p>
-        <style>
-            .my-hover-target {
-                position: relative;
-                cursor: pointer;
-            }
-            
-            #widget {
-                position: absolute;
-                background: white;
-                border: 1px solid #ccc;
-                padding: 10px;
-                z-index: 1000;
-                top: 100%;
-                left: 0;
-            }
-        </style>
-        <div id="widget" style="display: none;">
-           <pre>
-          @inproceedings{zhu2022robustness,
+            <style>
+                .citation-container {
+                    position: relative;
+                    display: inline-block;
+                }
+        
+                .my-hover-target {
+                    cursor: pointer;
+                    color: blue;
+                    text-decoration: underline;
+                }
+        
+                .bibtex-widget {
+                    display: none;
+                    position: absolute;
+                    background: white;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    border-radius: 4px;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+                    width: 400px;
+                    top: 100%;
+                    left: 0;
+                    z-index: 1000;
+                    font-family: monospace;
+                    white-space: pre-wrap;
+                }
+            </style>
+        <div class="citation-container">
+           <div class="bibtex-widget">@inproceedings{zhu2022robustness,
                     title={Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)},
                     author={Zhu, Zhenyu and Liu, Fanghui and Chrysos, G Grigorios and Cevher, Volkan},
                     booktitle={Advances in neural information processing systems (NeurIPS)},
                     year={2022}
-          }
-           </pre>
+          }</div>
         </div>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-                var p = document.querySelector(".my-hover-target");
-                var my_widget = document.querySelector("#widget");
-                
-                p.addEventListener("mouseover", function() {
-                    my_widget.style.display = "block";
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const hoverElement = document.querySelector('.my-hover-target');
+                    const bibtexWidget = document.querySelector('.bibtex-widget');
+        
+                    hoverElement.addEventListener('mouseover', function() {
+                        bibtexWidget.style.display = 'block';
+                    });
+        
+                    hoverElement.addEventListener('mouseout', function() {
+                        bibtexWidget.style.display = 'none';
+                    });
                 });
-                
-                p.addEventListener("mouseout", function() {
-                    my_widget.style.display = "none";
-                });
-            });
-        </script> 
+            </script>
     </div></li>
 
 

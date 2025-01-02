@@ -16,13 +16,19 @@ The information below aims to provide clarity on the expectations, background, a
 
 If you are passionate about machine learning and eager to contribute to cutting-edge research, please read on to determine if this aligns with your academic and professional goals.
 
-[Do you work with BSc/MSc students?](#work_with_BSc)
-[What background should I have?](#student_background)
-[Beyond technical skills, what are your expectations?](#project_expectations)
-[How does the project evolve?](#project_outlook)
-[How do I get in touch to start a project?](#should_I_contact_you)
-[Alright, I am interested](#email_template)
-[Indicative Ideas and Directions](#indicative_directions)
+A. [Do you work with BSc/MSc students?](#work_with_BSc)
+
+B. [What background should I have?](#student_background)
+
+C. [Beyond technical skills, what are your expectations?](#project_expectations)
+
+D. [How does the project evolve?](#project_outlook)
+
+E. [How do I get in touch to start a project?](#should_I_contact_you)
+
+F. [Alright, I am interested](#email_template)
+
+G. [Indicative Ideas and Directions](#indicative_directions)
 
 
 
