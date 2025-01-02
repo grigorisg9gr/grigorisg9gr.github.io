@@ -181,8 +181,7 @@ collection: publications
       Conference on Neural Information Processing Systems (<em>NeurIPS</em>), 2022. <br>
       <a style="color: white; text-decoration: none;" href="https://openreview.net/pdf?id=m8vzptcFKsT"><span class="buttong button-round"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF</span></a> <br>
       <span style="color: #609999; font-size: 13px; line-height: 13px;">We explore the interplay of the width, the depth and the initialization(s) on the average robustness of neural networks with both theoretical bounds and empirical validation.</span></p> <!-- https://arxiv.org/pdf/2209.07263.pdf https://openreview.net/pdf?id=m8vzptcFKsT -->
-<!--  # # Comment it out for now and revisit later.-->
-        <p class="my-hover-target">Bibtex citation.</p>
+<!--  # # This works, but this only shows when hovering the citation. Perhaps modify it to show the summary when hovering. In addition, the citation should be copiable.  -->
             <style>
                 .citation-container {
                     position: relative;
@@ -210,16 +209,69 @@ collection: publications
                     font-family: monospace;
                     white-space: pre-wrap;
                 }
+
+                /* Add this for notification when copying the bibtex */
+                .copy-feedback {
+                    display: none;
+                    position: absolute;
+                    background: #4CAF50;
+                    color: white;
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    font-size: 12px;
+                }
+
             </style>
         <div class="citation-container">
+           <span class="buttong button-round"><div class="my-hover-target">Copy bibtex citation.</div></span>
            <div class="bibtex-widget">@inproceedings{zhu2022robustness,
                     title={Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)},
                     author={Zhu, Zhenyu and Liu, Fanghui and Chrysos, G Grigorios and Cevher, Volkan},
                     booktitle={Advances in neural information processing systems (NeurIPS)},
                     year={2022}
           }</div>
+           <span class="copy-feedback">Copied!</span>
         </div>
-            <script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hoverElement = document.querySelector('.my-hover-target');
+            const bibtexWidget = document.querySelector('.bibtex-widget');
+            const feedback = document.querySelector('.copy-feedback');
+
+            // Show/hide on hover
+            hoverElement.addEventListener('mouseover', function() {
+                bibtexWidget.style.display = 'block';
+            });
+
+            hoverElement.addEventListener('mouseout', function() {
+                bibtexWidget.style.display = 'none';
+            });
+
+            // Copy on click
+            hoverElement.addEventListener('click', async function() {
+                try {
+                    await navigator.clipboard.writeText(bibtexWidget.textContent);
+                    
+                    // Show feedback
+                    feedback.style.display = 'block';
+                    feedback.style.top = '-25px';
+                    feedback.style.left = '50%';
+                    feedback.style.transform = 'translateX(-50%)';
+                    
+                    // Hide feedback after 2 seconds
+                    setTimeout(() => {
+                        feedback.style.display = 'none';
+                    }, 2000);
+                } catch (err) {
+                    console.error('Failed to copy text: ', err);
+                }
+            });
+        });
+    </script>
+    </div></li>
+
+
+   <!--          <script>
                 document.addEventListener('DOMContentLoaded', function() {
                     const hoverElement = document.querySelector('.my-hover-target');
                     const bibtexWidget = document.querySelector('.bibtex-widget');
@@ -233,7 +285,7 @@ collection: publications
                     });
                 });
             </script>
-    </div></li>
+    </div></li>-->
 
 
 
