@@ -138,7 +138,7 @@ collection: publications
     <div style="padding-left: 16px">
       <p>Lorenzo Brusca*, Lars C.P.M. Quaedvlieg*, Stratis Skoulakis*, <strong>Grigorios Chrysos</strong>, Volkan Cevher<br>
       Conference on Neural Information Processing Systems (<em>NeurIPS</em>), 2023. <br>
-      <a style="color: white; text-decoration: none;" href="https://arxiv.org/pdf/2310.18672.pdf"><span class="buttong button-round"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF</span></a> 
+      <a style="color: white; text-decoration: none;" href="https://openreview.net/pdf?id=igE3Zbxvws"><span class="buttong button-round"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF</span></a> 
       <a style="color: white; text-decoration: none;" href="https://github.com/LIONS-EPFL/dynamic-MIS"><span class="buttong button-round"> <i class="fa fa-fw fa-github" aria-hidden="true"></i>&nbsp;Code</span></a>
       <a style="color: white; text-decoration: none;" href="https://lions-epfl.github.io/dynamic-MIS/"><span class="buttong button-round"> <i class="fa fa-fw fa-file-text-o" aria-hidden="true"></i>&nbsp;Project page</span></a> <br>
       <span style="color: #609999; font-size: 13px; line-height: 13px;">We design a framework for estimating the maximum independent set (MIS) without using supervised samples, inspired by dynamic programming.</span></p> <!-- https://arxiv.org/abs/2310.18672 -->
@@ -181,28 +181,48 @@ collection: publications
       Conference on Neural Information Processing Systems (<em>NeurIPS</em>), 2022. <br>
       <a style="color: white; text-decoration: none;" href="https://openreview.net/pdf?id=m8vzptcFKsT"><span class="buttong button-round"> <i class="fa fa-file-pdf-o" aria-hidden="true"></i> &nbsp;PDF</span></a> <br>
       <span style="color: #609999; font-size: 13px; line-height: 13px;">We explore the interplay of the width, the depth and the initialization(s) on the average robustness of neural networks with both theoretical bounds and empirical validation.</span></p> <!-- https://arxiv.org/pdf/2209.07263.pdf https://openreview.net/pdf?id=m8vzptcFKsT -->
-<!--  # # Comment it out for now and revisit later.
+<!--  # # Comment it out for now and revisit later.-->
         <p class="my-hover-target">Bibtex citation.</p>
+        <style>
+            .my-hover-target {
+                position: relative;
+                cursor: pointer;
+            }
+            
+            #widget {
+                position: absolute;
+                background: white;
+                border: 1px solid #ccc;
+                padding: 10px;
+                z-index: 1000;
+                top: 100%;
+                left: 0;
+            }
+        </style>
         <div id="widget" style="display: none;">
+           <pre>
           @inproceedings{zhu2022robustness,
                     title={Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)},
                     author={Zhu, Zhenyu and Liu, Fanghui and Chrysos, G Grigorios and Cevher, Volkan},
                     booktitle={Advances in neural information processing systems (NeurIPS)},
                     year={2022}
           }
+           </pre>
         </div>
         <script>
-          var p = document.querySelector(".my-hover-target"); // Get a reference to the paragraph element
-          var my_widget = document.querySelector("#widget"); // Get a reference to the widget element
-
-          // Add an event listener to the paragraph that
-          // shows the widget when the cursor is over the paragraph
-          p.addEventListener("mouseover", function() {my_widget.style.display = "block";});
-
-          // Add an event listener to the paragraph that
-          // hides the widget when the cursor is no longer over the paragraph
-          p.addEventListener("mouseout", function() {my_widget.style.display = "none";});
-        </script> -->
+            document.addEventListener('DOMContentLoaded', function() {
+                var p = document.querySelector(".my-hover-target");
+                var my_widget = document.querySelector("#widget");
+                
+                p.addEventListener("mouseover", function() {
+                    my_widget.style.display = "block";
+                });
+                
+                p.addEventListener("mouseout", function() {
+                    my_widget.style.display = "none";
+                });
+            });
+        </script> 
     </div></li>
 
 
