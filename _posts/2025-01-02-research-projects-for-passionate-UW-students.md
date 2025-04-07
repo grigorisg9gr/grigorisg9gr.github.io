@@ -78,7 +78,7 @@ D. <a name="project_outlook">**How does the project evolve?**</a>
 Every project is unique in terms of its technical content, but here is the general outlook:
 
 1. If you have a project you are passionate about, that is a great starting point. Focusing on what excites you will likely result in interesting outcomes and fast progress.
-2. We will meet weekly, either in a reading group or one-on-one, to discuss your progress. Developing intuition about what to try next or identifying the current limiting factor is crucial.
+2. We will meet frequently to discuss your progress. Developing intuition about what to try next or identifying the current limiting factor is crucial.
 3. I prefer progress-oriented projects, where we focus on the progress of the project rather than the number of hours worked. This enables us to address the most limiting factors quickly.
 
 
@@ -102,7 +102,7 @@ Please ensure you have read the above question. If you want to get in touch, fol
 - Independent study: Yes/No. [An independent study is often the best way to conduct your project]
 - [Optional] Project idea: ... [If you have a concrete idea, please mention it. If not, consult some indicative ideas below]
 
-Once I receive your information, I will likely respond with a few preliminary steps to assess alignment in terms of research interests and working style. If I do not respond within a week, please do not be disheartened. I receive many emails, and sometimes I might miss an email from a very strong student.
+Once I receive your information, I will likely respond with a few preliminary steps to assess alignment in terms of mathematical background, research interests and working style. If I do not respond within a week, please do not be disheartened. I receive many emails, and sometimes I might miss an email from a very strong student.
 
 
 
