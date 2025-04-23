@@ -14,7 +14,7 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 
-
+*_temp.txt
 *~
 *.pyc
 .idea/*
