@@ -58,8 +58,8 @@ B. <a name="student_background">**What background should I have?**</a>
 
 Each project and student is unique. While curiosity and a willingness to learn quickly are more important than individual grades or specific courses, I have found that the students I collaborate best with typically have the following background:
 
-1. **Strong Analytical Thinking**: This often translates to having completed multiple Math courses, but extends beyond that. For example, the Algorithms course CS 577 is highly recommended.
-2. **ML Courses**: Familiarity with the content of UW's excellent ML and Math courses is beneficial. I am particularly fond of courses such as ECE/CS 532, ECE 524 or at least introductory courses such as CS 540.
+1. **Strong Analytical Thinking**: This often translates to having completed multiple Math courses, but extends beyond that. For example, the course CS 577 is strongly recommended.
+2. **ML Courses**: Familiarity with the content of UW's excellent ML and Math courses is required. I am particularly fond of courses such as ECE/CS 532, ECE 524 or at least introductory courses such as CS 540.
 3. **Time to Learn:** Research requires time to think and iterate. This is not a 1-hour-a-week alternative to an easy course. If you wish to work with me, please ensure you have the time and willingness to learn.
 
 
@@ -84,7 +84,7 @@ Every project is unique in terms of its technical content, but here is the gener
 
 E. <a name="should_I_contact_you">**How do I get in touch to start a project?**</a>
 
-1. If you have studied this entire article and it resonates with you, that is a very positive sign.
+1. If you have studied this entire article and all points resonate with you, that is a very positive sign.
 2. Due to the high volume of emails I receive, I recommend sending a brief but targeted email justifying why you would like to work with me and which expectations excite you the most; please check the next question.
 3. If you are taking one of my courses this semester, it might be worthwhile to wait until the end of the semester to start the project. This way, you will gain experience from the course and we can interact during the course to see if you are interested in my perspective.
 
