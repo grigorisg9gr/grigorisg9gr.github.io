@@ -12,7 +12,7 @@ tags:
   - research
 ---
 
-["AI-generated proofs can look superficially flawless... but their errors are stupid."](https://youtu.be/HUkBz-cdB-k?si=LNUc8XX5NArudERg)
+Terence Tao: ["AI-generated proofs can look superficially flawless... but their errors are stupid."](https://youtu.be/HUkBz-cdB-k?si=LNUc8XX5NArudERg)
 
 When the renowned mathematician Terence Tao said this, he perfectly captured the strange paradox of modern artificial intelligence. Today, large language models (LLMs) like ChatGPT are increasingly integrated into daily workflows, helping us write emails, summarize articles, and even code. Their power is undeniable. But as we start relying on them for more critical tasks, like mathematical reasoning, we have to ask: How do we handle their errors, especially when they are hidden under a cloak of confidence?
 
